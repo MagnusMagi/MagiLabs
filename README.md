@@ -2,62 +2,61 @@
 
 A modern, responsive corporate website for MagiLabs ÖÜ, an Estonia-based digital innovation studio specializing in AI-powered SaaS applications.
 
-## 🎯 Proje Amacı / Project Goal
+## 🎯 Project Goal / Projekti Eesmärk
 
-Bu proje, Magi Labs için Framer tarzında bir CMS ve Admin Panel sistemi geliştirmeyi amaçlamaktadır. Magi Labs, Estonya merkezli bir dijital ürün stüdyosudur ve MagiNews, Trainerly, AstroApp gibi çoklu AI destekli uygulamaları yönetmektedir. Sistem tamamen modüler, responsive ve Cursor AI kullanılarak component-driven yaklaşımla inşa edilecektir.
+The goal of this project is to build a Framer-inspired CMS and Admin Panel system for Magi Labs, an Estonia-based digital product studio managing multiple AI-powered applications like MagiNews, Trainerly, and AstroApp. The system will be fully modular, responsive, and built with a component-driven approach using Cursor AI.
 
-**English**: The goal of this project is to build a Framer-inspired CMS and Admin Panel system for Magi Labs, an Estonia-based digital product studio managing multiple AI-powered applications like MagiNews, Trainerly, and AstroApp. The system will be fully modular, responsive, and built with a component-driven approach using Cursor AI.
+**Eesti keel**: Selle projekti eesmärk on ehitada Framer-inspireeritud CMS ja Admin Paneeli süsteem Magi Labs jaoks, mis on Eestis asuv digitaalne toote stuudio, mis haldab mitmeid AI-põhiseid rakendusi nagu MagiNews, Trainerly ja AstroApp. Süsteem on täielikult modulaarne, responsive ja ehitatud component-driven lähenemisviisiga kasutades Cursor AI-d.
 
-## 🚀 Özellikler / Features
+## 🚀 Features / Funktsioonid
 
-### 🎨 Tasarım / Design
+### 🎨 Design / Disain
 - **Modern Design**: Framer-inspired UI with Nordic color palette
 - **Responsive Layout**: Mobile-first design that works on all devices
 - **Dark/Light Theme**: Automatic theme switching with system preference detection
-- **Nordic Aesthetics**: Estonya'nın doğal güzelliklerinden ilham alan tasarım
+- **Nordic Aesthetics**: Design inspired by Estonia's natural beauty
 
-### 🌐 Çok Dilli Destek / Multilingual Support
+### 🌐 Multilingual Support / Mitmekeelne Tugi
 - **EN**: English (default)
-- **TR**: Turkish (Türkçe)
 - **EE**: Estonian (Eesti keel)
 - **Language Switching**: Framework ready for seamless language transitions
 
-### 🧩 Component-Driven Architecture
-- **Modular Components**: Her bileşen bağımsız ve yeniden kullanılabilir
-- **Reusable UI**: shadcn/ui components ile tutarlı tasarım
-- **Scalable Structure**: Büyüyen proje ihtiyaçlarına uygun yapı
+### 🧩 Component-Driven Architecture / Komponentidele Põhinev Arhitektuur
+- **Modular Components**: Each component is independent and reusable
+- **Reusable UI**: Consistent design with shadcn/ui components
+- **Scalable Structure**: Structure suitable for growing project needs
 
-### ⚡ Performance & Optimization
-- **Next.js 14**: App Router ile optimal performans
-- **TypeScript**: Tip güvenliği ve geliştirici deneyimi
+### ⚡ Performance & Optimization / Jõudlus ja Optimeerimine
+- **Next.js 14**: Optimal performance with App Router
+- **TypeScript**: Type safety and developer experience
 - **Tailwind CSS**: Utility-first CSS framework
-- **Optimized Build**: Production-ready optimizasyonlar
+- **Optimized Build**: Production-ready optimizations
 
-## 🛠️ Teknoloji Stack'i / Tech Stack
+## 🛠️ Tech Stack / Tehnoloogia Stack
 
-### Frontend Framework
+### Frontend Framework / Frontend Raamistik
 - **Next.js 14**: React framework with App Router
 - **React 18**: Modern React with concurrent features
 - **TypeScript**: Type-safe JavaScript development
 
-### Styling & UI
+### Styling & UI / Stiil ja Kasutajaliides
 - **Tailwind CSS**: Utility-first CSS framework
 - **shadcn/ui**: High-quality React components
 - **Radix UI**: Accessible component primitives
 - **Lucide React**: Beautiful icon library
 
-### State Management & Theming
+### State Management & Theming / Oleku Haldamine ja Teemad
 - **React Context**: Lightweight state management
 - **next-themes**: Theme switching and persistence
 - **CSS Variables**: Dynamic theming support
 
-### Development Tools
+### Development Tools / Arendusvahendid
 - **ESLint**: Code quality and consistency
 - **Prettier**: Code formatting
 - **PostCSS**: CSS processing
 - **Autoprefixer**: CSS vendor prefixing
 
-## 📁 Proje Yapısı / Project Structure
+## 📁 Project Structure / Projekti Struktuur
 
 ```
 src/
@@ -82,163 +81,162 @@ src/
     └── utils.ts           # Common utilities and helpers
 ```
 
-## 🎨 Tasarım Sistemi / Design System
+## 🎨 Design System / Disaini Süsteem
 
-### Renk Paleti / Color Palette
-- **Nordic Blue**: #3B82F6 (Primary - Ana renk)
-- **Soft Blue**: #93C5FD (Secondary - İkincil renk)
-- **Charcoal**: #1F2937 (Text - Metin)
-- **White**: #FFFFFF (Background - Arka plan)
-- **Gray**: #F3F4F6 (Muted - Soluk)
-- **Accent**: #10B981 (Success - Başarı)
+### Color Palette / Värvipalett
+- **Nordic Blue**: #3B82F6 (Primary - Põhivärv)
+- **Soft Blue**: #93C5FD (Secondary - Sekundaarne värv)
+- **Charcoal**: #1F2937 (Text - Tekst)
+- **White**: #FFFFFF (Background - Taust)
+- **Gray**: #F3F4F6 (Muted - Summutatud)
+- **Accent**: #10B981 (Success - Edu)
 
-### Tipografi / Typography
-- **Primary**: Inter (Sans-serif) - Modern ve okunabilir
-- **Monospace**: Teknik içerik için
+### Typography / Tüpograafia
+- **Primary**: Inter (Sans-serif) - Modern and readable
+- **Monospace**: For technical content
 - **Font Weights**: 300, 400, 500, 600, 700
 - **Line Heights**: Optimized for readability
 
-### Spacing & Layout
+### Spacing & Layout / Vahed ja Paigutus
 - **Base Unit**: 4px (0.25rem)
 - **Container**: Max-width 1200px
 - **Grid**: 12-column responsive grid
 - **Breakpoints**: Mobile-first approach
 
-## 🚀 Kurulum ve Çalıştırma / Getting Started
+## 🚀 Getting Started / Alustamine
 
-### Gereksinimler / Prerequisites
+### Prerequisites / Eeltingimused
 - Node.js 18+ 
-- npm veya yarn
+- npm or yarn
 - Git
 
-### Kurulum / Installation
+### Installation / Paigaldamine
 ```bash
-# Repository'yi klonlayın
+# Clone the repository
 git clone https://github.com/MagnusMagi/MagiLabs.git
 cd MagiLabs
 
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlatın
+# Start development server
 npm run dev
 ```
 
-### Build & Deploy
+### Build & Deploy / Ehitamine ja Juurutamine
 ```bash
-# Production için build
+# Build for production
 npm run build
 
-# Production sunucusunu başlat
+# Start production server
 npm start
 
-# Kod kalitesi kontrolü
+# Code quality check
 npm run lint
 ```
 
-## 🌐 Çok Dilli Destek Detayları / Internationalization Details
+## 🌐 Internationalization Details / Rahvusvahelise Kujundamise Detailid
 
-Proje çok dilli destek için hazırlanmıştır:
-- **Dil Dosyaları**: `/locales` klasöründe organize edilecek
-- **Context API**: React Context ile dil yönetimi
+The project is prepared for multilingual support:
+- **Language Files**: Will be organized in `/locales` folder
+- **Context API**: Language management with React Context
 - **Dynamic Routing**: URL-based language switching
-- **SEO Optimization**: Her dil için meta tags
+- **SEO Optimization**: Meta tags for each language
 
-### Desteklenen Diller / Supported Languages
-- **EN**: English (Varsayılan / Default)
-- **TR**: Turkish (Türkçe)
+### Supported Languages / Toetatud Keeled
+- **EN**: English (Default)
 - **EE**: Estonian (Eesti keel)
 
-## 📱 Responsive Tasarım / Responsive Design
+## 📱 Responsive Design / Responsiivne Disain
 
-### Breakpoint Sistemi
-- **Mobile**: 320px - 768px (Mobil öncelikli)
-- **Tablet**: 768px - 1024px (Tablet uyumlu)
-- **Desktop**: 1024px+ (Masaüstü optimizasyonu)
+### Breakpoint System / Murdepunktide Süsteem
+- **Mobile**: 320px - 768px (Mobile-first)
+- **Tablet**: 768px - 1024px (Tablet compatible)
+- **Desktop**: 1024px+ (Desktop optimized)
 
-### Responsive Özellikler
-- **Mobile-First**: Mobil cihazlardan başlayarak tasarım
-- **Flexible Grid**: CSS Grid ve Flexbox ile esnek layout
-- **Touch-Friendly**: Dokunmatik cihazlar için optimize edilmiş
-- **Performance**: Her ekran boyutu için optimize edilmiş
+### Responsive Features / Responsiivsed Funktsioonid
+- **Mobile-First**: Design starting from mobile devices
+- **Flexible Grid**: Flexible layout with CSS Grid and Flexbox
+- **Touch-Friendly**: Optimized for touch devices
+- **Performance**: Optimized for every screen size
 
-## 🔧 Geliştirme Rehberi / Development Guide
+## 🔧 Development Guide / Arenduse Juhend
 
-### Component Geliştirme / Component Development
-- shadcn/ui bileşenlerini temel olarak kullan
-- Tailwind CSS utility-first yaklaşımını takip et
-- Tutarlı spacing ve typography sürdür
-- Çoklu ekran boyutlarında test et
+### Component Development / Komponentide Arendamine
+- Use shadcn/ui components as base
+- Follow Tailwind CSS utility-first approach
+- Maintain consistent spacing and typography
+- Test on multiple screen sizes
 
-### Kod Stili / Code Style
-- TypeScript strict mode aktif
-- ESLint Next.js konfigürasyonu
-- Prettier kod formatlaması
-- Semantic commit mesajları
+### Code Style / Koodi Stiil
+- TypeScript strict mode enabled
+- ESLint Next.js configuration
+- Prettier code formatting
+- Semantic commit messages
 
-### Best Practices
-- **Component Composition**: Bileşenleri birleştirerek karmaşık UI oluştur
-- **Props Interface**: Her component için TypeScript interface tanımla
-- **Error Boundaries**: Hata yönetimi için error boundary kullan
-- **Performance**: React.memo ve useMemo ile gereksiz render'ları önle
+### Best Practices / Parimad Tavad
+- **Component Composition**: Create complex UI by combining components
+- **Props Interface**: Define TypeScript interface for each component
+- **Error Boundaries**: Use error boundaries for error handling
+- **Performance**: Prevent unnecessary renders with React.memo and useMemo
 
-## 🚀 Gelecek Geliştirmeler / Future Enhancements
+## 🚀 Future Enhancements / Tulevased Täiustused
 
-### Phase 1 - Core Features
+### Phase 1 - Core Features / Põhifunktsioonid
 - [x] Responsive website structure
 - [x] Theme switching system
 - [x] Language selector framework
 - [x] Component library setup
 
-### Phase 2 - CMS Integration
+### Phase 2 - CMS Integration / CMS Integreerimine
 - [ ] MDX/TipTap editor integration
 - [ ] Content management system
 - [ ] Dynamic page generation
 - [ ] SEO optimization tools
 
-### Phase 3 - Advanced Features
+### Phase 3 - Advanced Features / Täiustatud Funktsioonid
 - [ ] Blog section with AI-generated content
 - [ ] Job application system
 - [ ] Product-specific landing pages
 - [ ] Analytics integration (PostHog/Vercel)
 
-### Phase 4 - Enterprise Features
+### Phase 4 - Enterprise Features / Ettevõtte Funktsioonid
 - [ ] User authentication system
 - [ ] Role-based access control
 - [ ] Performance monitoring
 - [ ] Advanced analytics dashboard
 
-## 📊 Performance Hedefleri / Performance Targets
+## 📊 Performance Targets / Jõudluse Eesmärgid
 
-### Lighthouse Metrics
+### Lighthouse Metrics / Lighthouse Meetrikad
 - **Performance Score**: 95+
 - **Accessibility Score**: 95+
 - **Best Practices Score**: 95+
 - **SEO Score**: 95+
 
-### Core Web Vitals
+### Core Web Vitals / Veebi Põhilised Näitajad
 - **First Contentful Paint**: < 1.5s
 - **Largest Contentful Paint**: < 2.5s
 - **Cumulative Layout Shift**: < 0.1
 - **First Input Delay**: < 100ms
 
-### Optimization Strategies
+### Optimization Strategies / Optimeerimise Strateegiad
 - **Code Splitting**: Route-based code splitting
 - **Image Optimization**: Next.js Image component
 - **Font Loading**: Optimized font loading strategy
 - **Bundle Analysis**: Regular bundle size monitoring
 
-## 🤝 Katkıda Bulunma / Contributing
+## 🤝 Contributing / Kaasaaitamine
 
-### Geliştirici Kurulumu / Developer Setup
-1. Repository'yi fork edin
-2. Feature branch oluşturun (`git checkout -b feature/amazing-feature`)
-3. Değişikliklerinizi yapın
-4. Test edin ve lint kontrolünden geçirin
-5. Commit mesajlarını semantic olarak yazın
-6. Pull request gönderin
+### Developer Setup / Arendaja Seadistamine
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Test and pass lint checks
+5. Write commit messages semantically
+6. Submit a pull request
 
-### Commit Convention
+### Commit Convention / Commit Konventsioon
 ```
 feat: add new feature
 fix: bug fix
@@ -249,50 +247,50 @@ test: adding tests
 chore: maintenance tasks
 ```
 
-### Code Review Process
-- Her PR için en az bir review gerekli
-- Test coverage %80+ olmalı
-- Performance impact değerlendirilmeli
-- Accessibility standartları karşılanmalı
+### Code Review Process / Koodi Ülevaatamise Protsess
+- At least one review required for each PR
+- Test coverage should be 80%+
+- Performance impact should be evaluated
+- Accessibility standards should be met
 
-## 📄 Lisans / License
+## 📄 License / Litsents
 
-Bu proje MagiLabs ÖÜ'nin özel yazılımıdır. Tüm hakları saklıdır.
+This project is proprietary software owned by MagiLabs ÖÜ. All rights reserved.
 
-**English**: This project is proprietary software owned by MagiLabs ÖÜ. All rights reserved.
+**Eesti keel**: See projekt on MagiLabs ÖÜ omanduses olev omanduslik tarkvara. Kõik õigused on kaitstud.
 
-## 📞 İletişim / Contact
+## 📞 Contact / Kontakt
 
-### Company Information
+### Company Information / Ettevõtte Info
 - **Company**: MagiLabs ÖÜ
-- **Location**: Tallinn, Estonia (Tallinn, Estonya)
+- **Location**: Tallinn, Estonia
 - **Industry**: Digital Product Studio
 - **Specialization**: AI-powered SaaS Applications
 
-### Contact Details
+### Contact Details / Kontaktandmed
 - **Email**: [Contact via website]
 - **Website**: [Coming soon]
 - **LinkedIn**: [Company profile]
 - **GitHub**: [https://github.com/MagnusMagi/MagiLabs](https://github.com/MagnusMagi/MagiLabs)
 
-### Office Location
+### Office Location / Kontori Asukoht
 - **Address**: Tallinn, Estonia
 - **Timezone**: EET (UTC+2) / EEST (UTC+3)
 - **Business Hours**: Monday - Friday, 9:00 AM - 6:00 PM
 
-## 🌟 Öne Çıkan Özellikler / Key Highlights
+## 🌟 Key Highlights / Põhilised Eristumised
 
-### Innovation Focus
-- **AI Integration**: Yapay zeka destekli özellikler
-- **Modern Tech Stack**: En güncel teknolojiler
-- **Scalable Architecture**: Büyüyen ihtiyaçlara uygun yapı
-- **Performance First**: Hız ve performans odaklı geliştirme
+### Innovation Focus / Innovatsiooni Fookus
+- **AI Integration**: AI-powered features
+- **Modern Tech Stack**: Latest technologies
+- **Scalable Architecture**: Architecture suitable for growing needs
+- **Performance First**: Speed and performance-focused development
 
-### Estonian Excellence
-- **Nordic Design**: İskandinav tasarım estetiği
-- **Digital Innovation**: Estonya'nın dijital öncülüğü
-- **Quality Standards**: Yüksek kalite standartları
-- **Global Reach**: Uluslararası pazarlara açık
+### Estonian Excellence / Eesti Tipptase
+- **Nordic Design**: Scandinavian design aesthetics
+- **Digital Innovation**: Estonia's digital leadership
+- **Quality Standards**: High quality standards
+- **Global Reach**: Open to international markets
 
 ---
 

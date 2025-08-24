@@ -2,70 +2,70 @@
 
 Thank you for your interest in contributing to MagiLabs! This document provides guidelines and information for contributors.
 
-## 🎯 Proje Hakkında / About the Project
+## 🎯 About the Project / Projekti Kohta
 
-MagiLabs, Estonya merkezli bir dijital ürün stüdyosu için Framer tarzında CMS ve Admin Panel sistemi geliştiren bir projedir. Proje, modern web teknolojileri kullanılarak tamamen modüler, responsive ve component-driven yaklaşımla inşa edilmektedir.
+MagiLabs is a project developing a Framer-inspired CMS and Admin Panel system for an Estonia-based digital product studio. The project is built using modern web technologies with a fully modular, responsive, and component-driven approach.
 
-**English**: MagiLabs is a project developing a Framer-inspired CMS and Admin Panel system for an Estonia-based digital product studio. The project is built using modern web technologies with a fully modular, responsive, and component-driven approach.
+**Eesti keel**: MagiLabs on projekt, mis arendab Framer-inspireeritud CMS ja Admin Paneeli süsteemi Eestis asuva digitaalse toote stuudio jaoks. Projekt on ehitatud kasutades kaasaegseid veebitehnoloogiaid täielikult modulaarse, responsiivse ja komponentidele põhineva lähenemisviisiga.
 
-## 🚀 Başlarken / Getting Started
+## 🚀 Getting Started / Alustamine
 
-### Gereksinimler / Prerequisites
+### Prerequisites / Eeltingimused
 - Node.js 18+ 
-- npm veya yarn
+- npm or yarn
 - Git
 - Modern web browser
 - Code editor (VS Code recommended)
 
-### Kurulum / Setup
+### Setup / Seadistamine
 ```bash
-# Repository'yi fork edin
+# Fork the repository
 git clone https://github.com/YOUR_USERNAME/MagiLabs.git
 cd MagiLabs
 
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Geliştirme sunucusunu başlatın
+# Start development server
 npm run dev
 ```
 
-### Geliştirme Ortamı / Development Environment
+### Development Environment / Arenduskeskkond
 - **Port**: http://localhost:3000
-- **Hot Reload**: Otomatik sayfa yenileme
-- **TypeScript**: Strict mode aktif
-- **ESLint**: Kod kalitesi kontrolü
-- **Prettier**: Kod formatlaması
+- **Hot Reload**: Automatic page refresh
+- **TypeScript**: Strict mode enabled
+- **ESLint**: Code quality control
+- **Prettier**: Code formatting
 
-## 🔧 Geliştirme Süreci / Development Process
+## 🔧 Development Process / Arenduse Protsess
 
-### 1. Issue Oluşturma / Creating Issues
-- Bug report veya feature request için issue oluşturun
-- Template'leri kullanarak detaylı bilgi verin
-- Screenshot veya video ekleyin (gerekirse)
-- Reproduction steps belirtin
+### 1. Creating Issues / Probleemide Loomine
+- Create issues for bug reports or feature requests
+- Provide detailed information using templates
+- Add screenshots or videos if needed
+- Specify reproduction steps
 
-### 2. Branch Oluşturma / Creating Branches
+### 2. Creating Branches / Harude Loomine
 ```bash
-# Main branch'ten güncel kodu alın
+# Get latest code from main branch
 git checkout main
 git pull origin main
 
-# Feature branch oluşturun
+# Create feature branch
 git checkout -b feature/your-feature-name
-# veya
+# or
 git checkout -b fix/your-bug-fix
 ```
 
-### 3. Geliştirme / Development
-- Kod standartlarına uyun
-- TypeScript interface'leri tanımlayın
-- Component'leri test edin
-- Responsive tasarımı kontrol edin
-- Accessibility standartlarını karşılayın
+### 3. Development / Arendamine
+- Follow code standards
+- Define TypeScript interfaces
+- Test components
+- Check responsive design
+- Meet accessibility standards
 
-### 4. Commit Mesajları / Commit Messages
-Semantic commit convention kullanın:
+### 4. Commit Messages / Commit Sõnumid
+Use semantic commit convention:
 
 ```
 feat: add new feature
@@ -77,7 +77,7 @@ test: adding tests
 chore: maintenance tasks
 ```
 
-Örnekler / Examples:
+Examples / Näited:
 ```bash
 feat: add dark mode toggle component
 fix: resolve header navigation overflow issue
@@ -89,19 +89,19 @@ chore: update dependencies
 ```
 
 ### 5. Pull Request / Pull Request
-- Branch'inizi push edin
-- GitHub'da Pull Request oluşturun
-- Template'i doldurun
-- Review'ları bekleyin
-- Gerekli değişiklikleri yapın
+- Push your branch
+- Create Pull Request on GitHub
+- Fill out the template
+- Wait for reviews
+- Make necessary changes
 
-## 📋 Kod Standartları / Code Standards
+## 📋 Code Standards / Koodi Standardid
 
 ### TypeScript
-- Strict mode kullanın
-- Interface'leri export edin
-- Type annotation'ları ekleyin
-- Generic'leri uygun şekilde kullanın
+- Use strict mode
+- Export interfaces
+- Add type annotations
+- Use generics appropriately
 
 ```typescript
 // ✅ Good
@@ -119,10 +119,10 @@ const Button = (props: any) => {
 ```
 
 ### React Components
-- Functional components kullanın
-- Props destructuring yapın
-- Memoization'ı uygun şekilde kullanın
-- Error boundaries ekleyin
+- Use functional components
+- Use props destructuring
+- Use memoization appropriately
+- Add error boundaries
 
 ```typescript
 // ✅ Good
@@ -143,10 +143,10 @@ export function Button(props) {
 ```
 
 ### CSS/Tailwind
-- Utility-first yaklaşımı kullanın
-- Custom CSS'den kaçının
-- Responsive design için breakpoint'leri kullanın
-- Dark mode için CSS variables kullanın
+- Use utility-first approach
+- Avoid custom CSS
+- Use breakpoints for responsive design
+- Use CSS variables for dark mode
 
 ```tsx
 // ✅ Good
@@ -163,10 +163,10 @@ export function Button(props) {
 ```
 
 ### File Naming
-- PascalCase: Component dosyaları
-- camelCase: Utility dosyaları
-- kebab-case: CSS dosyaları
-- Uzantıları belirtin: `.tsx`, `.ts`, `.css`
+- PascalCase: Component files
+- camelCase: Utility files
+- kebab-case: CSS files
+- Specify extensions: `.tsx`, `.ts`, `.css`
 
 ```
 ✅ Good:
@@ -182,15 +182,15 @@ export function Button(props) {
 - Utils.ts
 ```
 
-## 🧪 Test / Testing
+## 🧪 Testing / Testimine
 
-### Test Türleri / Test Types
-- **Unit Tests**: Component'lerin bağımsız testleri
-- **Integration Tests**: Component'ler arası etkileşim
-- **E2E Tests**: Kullanıcı senaryoları
-- **Visual Tests**: UI görünüm kontrolü
+### Test Types / Testide Tüübid
+- **Unit Tests**: Independent tests of components
+- **Integration Tests**: Interaction between components
+- **E2E Tests**: User scenarios
+- **Visual Tests**: UI appearance control
 
-### Test Yazma / Writing Tests
+### Writing Tests / Testide Kirjutamine
 ```typescript
 import { render, screen } from '@testing-library/react'
 import { Button } from './Button'
@@ -210,19 +210,19 @@ describe('Button Component', () => {
 })
 ```
 
-## 📚 Dokümantasyon / Documentation
+## 📚 Documentation / Dokumentatsioon
 
-### Component Documentation
-- Props interface'lerini belirtin
-- Usage örnekleri ekleyin
-- Accessibility bilgilerini ekleyin
-- Screenshot'lar ekleyin
+### Component Documentation / Komponentide Dokumentatsioon
+- Specify props interfaces
+- Add usage examples
+- Add accessibility information
+- Add screenshots
 
-### Code Comments
-- Karmaşık logic'i açıklayın
-- Business logic'i belirtin
-- TODO'ları ekleyin
-- Deprecated kodları işaretleyin
+### Code Comments / Koodi Kommentaarid
+- Explain complex logic
+- Specify business logic
+- Add TODOs
+- Mark deprecated code
 
 ```typescript
 /**
@@ -241,94 +241,94 @@ export const ThemeToggle: React.FC<ThemeToggleProps> = ({
 }
 ```
 
-## 🔍 Code Review / Code Review
+## 🔍 Code Review / Koodi Ülevaatus
 
-### Review Checklist
-- [ ] Kod standartlarına uygun mu?
-- [ ] TypeScript hataları var mı?
-- [ ] Test'ler yazılmış mı?
-- [ ] Responsive design kontrol edildi mi?
-- [ ] Accessibility standartları karşılanıyor mu?
-- [ ] Performance impact değerlendirildi mi?
-- [ ] Security riskleri var mı?
+### Review Checklist / Ülevaatuse Kontrollnimekiri
+- [ ] Does code follow standards?
+- [ ] Are there TypeScript errors?
+- [ ] Are tests written?
+- [ ] Is responsive design checked?
+- [ ] Are accessibility standards met?
+- [ ] Is performance impact evaluated?
+- [ ] Are there security risks?
 
-### Review Process
-1. **Initial Review**: Kod kalitesi ve standartlar
-2. **Technical Review**: Architecture ve performance
-3. **Design Review**: UI/UX ve accessibility
-4. **Final Review**: Son kontrol ve onay
+### Review Process / Ülevaatuse Protsess
+1. **Initial Review**: Code quality and standards
+2. **Technical Review**: Architecture and performance
+3. **Design Review**: UI/UX and accessibility
+4. **Final Review**: Final check and approval
 
-## 🚀 Deployment / Deployment
+## 🚀 Deployment / Juurutamine
 
-### Development
-- `npm run dev`: Geliştirme sunucusu
+### Development / Arendamine
+- `npm run dev`: Development server
 - `npm run build`: Production build
-- `npm run start`: Production sunucusu
-- `npm run lint`: Kod kalitesi kontrolü
+- `npm run start`: Production server
+- `npm run lint`: Code quality check
 
-### Production
-- Vercel deployment (otomatik)
-- Environment variables kontrol edin
-- Build optimizasyonları
+### Production / Tootmine
+- Vercel deployment (automatic)
+- Check environment variables
+- Build optimizations
 - Performance monitoring
 
-## 📞 İletişim / Communication
+## 📞 Communication / Kommunikatsioon
 
-### Geliştirici Topluluğu / Developer Community
-- **GitHub Issues**: Bug reports ve feature requests
-- **GitHub Discussions**: Genel tartışmalar
+### Developer Community / Arendajate Kogukond
+- **GitHub Issues**: Bug reports and feature requests
+- **GitHub Discussions**: General discussions
 - **Pull Requests**: Code contributions
-- **Releases**: Yeni sürüm duyuruları
+- **Releases**: New version announcements
 
-### Etiketler / Labels
-- `good first issue`: Yeni başlayanlar için
-- `bug`: Hata düzeltmeleri
-- `enhancement`: Yeni özellikler
-- `documentation`: Dokümantasyon güncellemeleri
-- `help wanted`: Yardım gereken konular
+### Labels / Sildid
+- `good first issue`: For beginners
+- `bug`: Bug fixes
+- `enhancement`: New features
+- `documentation`: Documentation updates
+- `help wanted`: Topics needing help
 
-## 🎉 Recognition / Recognition
+## 🎉 Recognition / Tunnustamine
 
-### Contributors
-- Tüm contributors GitHub'da listelenir
-- Significant contributions için special mention
+### Contributors / Kaasaaitajad
+- All contributors are listed on GitHub
+- Special mention for significant contributions
 - Contributor hall of fame
 - Regular contributor rewards
 
-### Contribution Types
-- **Code**: Feature development ve bug fixes
+### Contribution Types / Kaasaaitamise Tüübid
+- **Code**: Feature development and bug fixes
 - **Documentation**: README, docs, tutorials
 - **Design**: UI/UX improvements
-- **Testing**: Test coverage ve quality
+- **Testing**: Test coverage and quality
 - **Community**: Help, mentoring, support
 
-## 📋 Checklist / Checklist
+## 📋 Checklist / Kontrollnimekiri
 
-### Yeni Feature Geliştirirken / When Developing New Features
-- [ ] Issue oluşturuldu mu?
-- [ ] Branch oluşturuldu mu?
-- [ ] Kod standartlarına uyuldu mu?
-- [ ] Test'ler yazıldı mı?
-- [ ] Documentation güncellendi mi?
-- [ ] Responsive design kontrol edildi mi?
-- [ ] Accessibility test edildi mi?
-- [ ] Performance impact değerlendirildi mi?
+### When Developing New Features / Uute Funktsioonide Arendamisel
+- [ ] Is issue created?
+- [ ] Is branch created?
+- [ ] Are code standards followed?
+- [ ] Are tests written?
+- [ ] Is documentation updated?
+- [ ] Is responsive design checked?
+- [ ] Is accessibility tested?
+- [ ] Is performance impact evaluated?
 
-### Bug Fix Geliştirirken / When Developing Bug Fixes
-- [ ] Bug reproduce edilebiliyor mu?
-- [ ] Root cause bulundu mu?
-- [ ] Fix test edildi mi?
-- [ ] Regression test yapıldı mı?
-- [ ] Documentation güncellendi mi?
-
----
-
-## 🤝 Teşekkürler / Thank You
-
-MagiLabs projesine katkıda bulunduğunuz için teşekkür ederiz! Her contribution, projeyi daha iyi hale getirmemize yardımcı oluyor.
-
-**English**: Thank you for contributing to the MagiLabs project! Every contribution helps us make the project better.
+### When Developing Bug Fixes / Bugide Parandamisel
+- [ ] Can bug be reproduced?
+- [ ] Is root cause found?
+- [ ] Is fix tested?
+- [ ] Is regression test done?
+- [ ] Is documentation updated?
 
 ---
 
-*Bu dokümantasyon MagiLabs development team tarafından güncellenmektedir.*
+## 🤝 Thank You / Tänan
+
+Thank you for contributing to the MagiLabs project! Every contribution helps us make the project better.
+
+**Eesti keel**: Täname, et aitasite kaasa MagiLabs projekti! Iga kaasaaitamine aitab meil projekti paremaks teha.
+
+---
+
+*This documentation is maintained by the MagiLabs development team.*
